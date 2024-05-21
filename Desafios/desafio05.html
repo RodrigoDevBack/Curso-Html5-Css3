@@ -5,30 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 05</title>
     <link rel="shortcut icon" href="images/lampada.ico" type="image/x-icon">
+     <link href="/your-path-to-uicons/css/uicons-[your-style].css" rel="stylesheet">
     <style>
-        .Rodrigo, .seta_voltar{
+        *{
+            background: url(images/FolhasVerdes.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .Rodrigo{
+            width: 170px;
+            border-radius: 100%;
+        }
+
+        .seta_voltar{
             width: 150px;
         }
-        .insta{
-            width: 13px;
+
+        .h1h2, .url{
+            color: rgb(112, 255, 79);
         }
-        .instaa{
-            color: black;
+        .p, .ul{
+            color: rgb(247, 255, 6);
         }
+        
     </style>
 </head>
 <body>
-    <h1>Minhas Redes Sociais</h1>
-    <h2>Quem sou eu?</h2>
+    <h1 class="h1h2">Minhas Redes Sociais</h1>
+    <h2 class="h1h2">Quem sou eu?</h2>
     <img class="Rodrigo" src="images/Rodrigo.webp" alt="Rodrigo">
-    <p>Meu nome é Rodrigo, sou cheio de habilidades diversificadas, mas gosto de <br>apura-las e aprimora-las tentando ser o mais equilibrado o possível. <br> Gosto de aprender coisas novas e me aperfeiçoar em cada uma delas,<br> dominando-as para fazer um bom uso das mesmas. Gosto de programar, pois gosto <br>de criar soluções para problemas, assim sigo aprendendo a programar desde Janeiro de 2024.</p>
-    <h2>Onde posso ser achado?</h2>
-    <ul>
-        <li><img class="insta" src="images/instagram.png" alt="Instagram"> <a class="instaa" target="_blank" href="https://www.instagram.com/rodrigo_rmst/">instagram</a></li>
-        <li></li>
-        <li></li>
-        <li></li>
+    <p class="p">Meu nome é <strong>Rodrigo Moraes</strong>, sou cheio de habilidades diversificadas, mas gosto de <br>apura-las e aprimora-las tentando ser o mais equilibrado o possível. <br> Gosto de aprender coisas novas e me aperfeiçoar em cada uma delas,<br> dominando-as para fazer um bom uso das mesmas. Gosto de programar, pois gosto <br>de criar soluções para problemas, assim sigo aprendendo a programar desde Janeiro de 2024.</p>
+    <h2 class="h1h2">Onde posso ser achado?</h2>
+    <ul class="ul">
+        <li><img src="images/instagram.png" alt="Instagram"> <a class="url" target="_blank" href="https://www.instagram.com/rodrigo_rmst/">\rodrigo_rmst</a></li>
+        <li><img src="images/whatsapp.png" alt="whatsapp"><a class="url" target="_blank" href="https://api.whatsapp.com/send?phone=5579999361146">\Rodrigo</a></li>
+        <li><img src="images/linkedin.png" alt="Linkedin"><a class="url" href="www.linkedin.com/in/rodrigo-moraes-7a65232b7">\Rodrigo Moraes</a></li>
+        <li><img src="images/github.png" alt="Github"><a class="url" href="https://github.com/RodrigoDevBack">\RodrigoDevBack</a></li>
     </ul>
-    <a href="central.html"><img class="seta_voltar" src="images/images01.png" alt="Seta_voltar"></a>
+    <a href="index.html" target="_self" rel="prev"><img class="seta_voltar" src="images/images01.png" alt="Seta_voltar"></a>
 </body>
 </html>
