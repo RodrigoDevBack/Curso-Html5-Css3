@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>exercício 010</title>
+    <style>
+        .video{
+            width: 500px;
+        }
+    </style>
 </head>
 <body>
     <h1>Renderizando tamanhos de imagens</h1>
@@ -13,5 +18,15 @@
         <source media="(max-width: 1000px)" srcset="image/paisagem-m.jpg" type="image/jpg">
         <img src="image/paisagem-g.jpg" alt="max-widht">
     </picture>
+    <h2>Vamos ouvir algumas músicas?</h2>
+    <audio preload="metadata" controls>
+        <source src="midia/A Year Ago (Instrumental) - NEFFEX.mp3" type="audio/mpeg">
+        <source src="midia/A Year Ago (Instrumental) - NEFFEX.mp3" type="audio/ogg">
+        <source src="midia/A Year Ago (Instrumental) - NEFFEX.mp3" type="audio/wav">
+    </audio>
+    <h1>Bora assistir um videozinho?</h1>
+    <video class="video" controls>
+        <source src="midia/20600550-hd_1280_720_30fps.mp4" type="video/mp4">
+    </video>
 </body>
 </html>
