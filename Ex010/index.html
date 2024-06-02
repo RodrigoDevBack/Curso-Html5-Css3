@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>exercício 010</title>
     <style>
-        .video{
+        .video {
             width: 500px;
         }
     </style>
 </head>
+
 <body>
     <h1>Renderizando tamanhos de imagens</h1>
     <h2>Recomenda-se usar outros tipos de aparelhos tecnológicos para testar.</h2>
@@ -24,9 +26,16 @@
         <source src="midia/A Year Ago (Instrumental) - NEFFEX.mp3" type="audio/ogg">
         <source src="midia/A Year Ago (Instrumental) - NEFFEX.mp3" type="audio/wav">
     </audio>
+    <audio preload="metadata" controls>
+        <source src="midia/Êxodo - Projeto Sola(MP3_320K).mp3" type="audio/mpeg">
+        <source src="midia/Êxodo - Projeto Sola(MP3_320K) (online-audio-converter.com).ogg" type="audio/ogg">
+        <source src="midia/Êxodo - Projeto Sola(MP3_320K) (online-audio-converter.com).wav" type="audio/wav">
+        <p>Seu navegador não suporta áudio</p>
+    </audio>
     <h1>Bora assistir um videozinho?</h1>
     <video class="video" controls>
         <source src="midia/20600550-hd_1280_720_30fps.mp4" type="video/mp4">
     </video>
 </body>
+
 </html>
